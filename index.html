@@ -16,7 +16,7 @@ function preload() {
     //game.load.image('disk', 'assets/sprites/ra_dont_crack_under_pressure.png');
 
     //  Firefox doesn't support mp3 files, so use ogg
-    game.load.audio('02', ['02-one-love-loveholic']);
+    game.load.audio('02', ['02-one-love-loveholic.mp3']);
 
 }
 
@@ -24,7 +24,7 @@ var music;
 
 function create() {
 
-    game.stage.backgroundColor = '#182d3b';
+    //game.stage.backgroundColor = '#182d3b';
     game.input.touch.preventDefault = false;
 
     music = game.add.audio('02');
